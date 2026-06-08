@@ -35,10 +35,10 @@ export default function DualThreat() {
                         </div>
                         <h3 className="text-3xl font-black uppercase mb-4">{t('tech_heading')}</h3>
                         <div className="flex gap-2 mb-6 flex-wrap">
-                            <span className="bg-white text-black text-xs font-bold px-2 py-1 uppercase">React</span>
-                            <span className="bg-white text-black text-xs font-bold px-2 py-1 uppercase">TypeScript</span>
-                            <span className="bg-white text-black text-xs font-bold px-2 py-1 uppercase">Next.js</span>
-                            <span className="bg-white text-black text-xs font-bold px-2 py-1 uppercase">Zustand</span>
+                            <span className="bg-white text-black text-xs font-bold px-2 py-1 uppercase">Python</span>
+                            <span className="bg-white text-black text-xs font-bold px-2 py-1 uppercase">FastAPI</span>
+                            <span className="bg-white text-black text-xs font-bold px-2 py-1 uppercase">SQLite</span>
+                            <span className="bg-white text-black text-xs font-bold px-2 py-1 uppercase">Prefect</span>
                         </div>
                         <p className="text-lg text-gray-300 font-body leading-relaxed">
                             {t('tech_copy')}
@@ -58,9 +58,9 @@ export default function DualThreat() {
                         </div>
                         <h3 className="text-3xl font-black uppercase mb-4">{t('edu_heading')}</h3>
                         <div className="flex gap-2 mb-6 flex-wrap">
-                            <span className="bg-white text-black text-xs font-bold px-2 py-1 uppercase">PGSD</span>
-                            <span className="bg-white text-black text-xs font-bold px-2 py-1 uppercase">Cognitive Load</span>
-                            <span className="bg-white text-black text-xs font-bold px-2 py-1 uppercase">Gamification</span>
+                            <span className="bg-white text-black text-xs font-bold px-2 py-1 uppercase">n8n</span>
+                            <span className="bg-white text-black text-xs font-bold px-2 py-1 uppercase">litellm</span>
+                            <span className="bg-white text-black text-xs font-bold px-2 py-1 uppercase">OpenAI</span>
                         </div>
                         <p className="text-lg text-gray-300 font-body leading-relaxed">
                             {t('edu_copy')}

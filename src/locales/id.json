@@ -11,12 +11,12 @@
         "contact": "Terapkan Solusi"
     },
     "Philosophy": {
-        "badge": "Keunggulan Ganda",
-        "title": "Simbiose Pedagogi dan Arsitektur",
-        "tech_heading": "Systems Engineer",
-        "tech_copy": "Saya membangun arsitektur sistem yang tangguh dan terukur tanpa utang teknis menggunakan React, TypeScript, dan state management modern.",
-        "edu_heading": "Learning Architect",
-        "edu_copy": "Saya mengaplikasikan Teori Beban Kognitif dan prinsip instruksi berdiferensiasi untuk merancang antarmuka yang memaksimalkan retensi materi."
+        "badge": "Standar Rekayasa",
+        "title": "Arsitektur AI & Sistem",
+        "tech_heading": "Systems Architecture",
+        "tech_copy": "Saya membangun arsitektur yang tangguh dan dapat diskalakan dengan nol hutang teknis menggunakan Python, FastAPI, dan alat orkestrasi yang kuat.",
+        "edu_heading": "LLM Orchestration",
+        "edu_copy": "Saya menerapkan prinsip rekayasa sistem untuk membangun solusi otomatis yang sangat tangguh dan integrasi AI."
     },
     "Timeline": {
         "section_title": "Rekam Jejak Eksekusi",

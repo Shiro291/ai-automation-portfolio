@@ -11,12 +11,12 @@
         "contact": "Deploy a Solution"
     },
     "Philosophy": {
-        "badge": "The Dual-Threat Advantage",
-        "title": "Pedagogy Meets Architecture",
-        "tech_heading": "Systems Engineer",
-        "tech_copy": "I build robust, scalable architectures with zero technical debt using modern React, TypeScript, and state management solutions.",
-        "edu_heading": "Learning Architect",
-        "edu_copy": "I apply Cognitive Load Theory and differentiated instruction principles to design interfaces that maximize learning retention."
+        "badge": "The Engineering Standard",
+        "title": "AI & Systems Architecture",
+        "tech_heading": "Systems Architecture",
+        "tech_copy": "I build robust, scalable architectures with zero technical debt using Python, FastAPI, and robust orchestration tools.",
+        "edu_heading": "LLM Orchestration",
+        "edu_copy": "I apply systems engineering principles to build highly resilient automated solutions and AI integrations."
     },
     "Timeline": {
         "section_title": "Execution History",
