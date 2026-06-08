@@ -41,10 +41,10 @@ def create_overlay():
     
     header_text = "PORTFOLIO & PROJECTS"
     body_text = (
-        "• <b>Interactive EdTech Learning Module:</b> Developed a scalable interactive learning module deployed to increase "
-        "engagement based on differentiated learning principles. (React, Tailwind, Zustand)<br/>"
-        "• <b>Pedagogical Technology Consulting (Primary Ed):</b> Designed and executed immersive lesson plans managing "
-        "real-time student engagement, integrating cognitive load theory with modern tech stacks."
+        "• <b>Headless AI Automation Engines:</b> Architected a scalable FastApi backend with strict Pydantic webhook validation "
+        "and OpenAI LLM state-machine orchestration for zero-fault lead routing. (Python, FastApi, OpenAI, Make.com)<br/>"
+        "• <b>Production-Grade Web Scraping:</b> Engineered fault-tolerant headless browser scripts using Playwright and Scrapling "
+        "to execute asynchronous DOM manipulation and bypass captchas in massive-scale automation flows."
     )
     
     # Draw header
@@ -64,7 +64,7 @@ def create_overlay():
     c.drawString(116.0, 739.0, " | Portfolio")
     
     # We can add a clickable link annotation in reportlab:
-    c.linkURL("https://portofolio-ffa.vercel.app/en", (116.0, 739.0 - 2, 160.0, 739.0 + 10))
+    c.linkURL("https://github.com/Shiro291/ai-automation-portfolio", (116.0, 739.0 - 2, 160.0, 739.0 + 10))
     
     c.save()
     packet.seek(0)
