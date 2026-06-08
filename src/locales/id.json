@@ -25,16 +25,16 @@
             {
                 "id": "pgsd",
                 "year": "2021 - 2025",
-                "title": "Arsitek Sistem AI",
+                "title": "Fasilitator Pendidikan & Arsitek Pembelajaran",
                 "organization": "Universitas Muhammadiyah Prof. Dr. HAMKA",
-                "description": "Mengkhususkan diri dalam konstruksi pipeline yang tangguh, layanan mikro wrapper LLM, dan otomatisasi tingkat perusahaan."
+                "description": "Mengkhususkan diri dalam Arsitektur Pedagogis & Psikologi Perkembangan Kognitif. Merancang dan melaksanakan rencana pembelajaran imersif, mengevaluasi metrik pembelajaran langsung terhadap standar kurikulum nasional."
             },
             {
                 "id": "rpl",
-                "year": "2019 - 2021",
-                "title": "Rekayasa Perangkat Lunak Dasar",
-                "organization": "SMK Negeri 2 Jakarta (RPL)",
-                "description": "Membangun latar belakang yang kuat dalam logika pemrograman inti, penataan basis data, dan arsitektur desain UI/UX, meletakkan dasar untuk pengembangan infrastruktur API yang kompleks."
+                "year": "2018 - 2021",
+                "title": "Dasar Rekayasa Perangkat Lunak",
+                "organization": "SMK Negeri 2 Gambir Jakarta Pusat",
+                "description": "Merekayasa latar belakang dasar dalam logika pemrograman inti, penataan basis data, dan arsitektur desain UI/UX, meletakkan dasar untuk pengembangan infrastruktur kompleks."
             }
         ]
     },

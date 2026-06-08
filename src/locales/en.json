@@ -25,16 +25,16 @@
             {
                 "id": "pgsd",
                 "year": "2021 - 2025",
-                "title": "AI Systems Architect",
+                "title": "Educational Facilitator & Learning Architect",
                 "organization": "University of Muhammadiyah Prof. Dr. HAMKA",
-                "description": "Specializing in resilient pipeline construction, LLM-wrapper microservices, and enterprise automation."
+                "description": "Specialized in Pedagogical Architectures & Cognitive Development Psychology. Designed and executed immersive lesson plans, evaluating live learning metrics against national curriculum standards."
             },
             {
                 "id": "rpl",
-                "year": "2019 - 2021",
+                "year": "2018 - 2021",
                 "title": "Software Engineering Foundation",
-                "organization": "State Vocational High School 2 Jakarta (RPL)",
-                "description": "Engineered a foundational background in core programming logic, database structuring, and UI/UX design architecture, laying the groundwork for complex API infrastructure development."
+                "organization": "Vocational Highschool 2 Gambir Jakarta Pusat",
+                "description": "Engineered a foundational background in core programming logic, database structuring, and UI/UX design architecture, laying the groundwork for complex infrastructure development."
             }
         ]
     },
