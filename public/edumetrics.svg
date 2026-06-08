@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <!-- Brutalist Background -->
+  <rect width="800" height="600" fill="#000000" />
+  
+  <!-- Terminal Window Chrome -->
+  <rect x="40" y="40" width="720" height="520" fill="#0f172a" stroke="#22c55e" stroke-width="4" />
+  <rect x="40" y="40" width="720" height="40" fill="#22c55e" />
+  
+  <circle cx="65" cy="60" r="8" fill="#000000" />
+  <circle cx="95" cy="60" r="8" fill="#000000" />
+  <circle cx="125" cy="60" r="8" fill="#000000" />
+  
+  <text x="360" y="66" font-family="monospace" font-size="18" fill="#000000" font-weight="bold">edumetrics_ai_pipeline.exe</text>
+  
+  <!-- Terminal Content Glowing Green -->
+  <g font-family="monospace" font-size="20" fill="#22c55e" font-weight="bold">
+    <text x="70" y="120">> initializing Groq Llama 3 API client...</text>
+    <text x="70" y="160">> loading input.csv (14,024 records)</text>
+    <text x="70" y="200">> calculating educational delta vectors [████████--]</text>
+    <text x="70" y="240">> SYSTEM ALERT: RATE_LIMIT_BYPASS=TRUE</text>
+    <text x="70" y="280">> establishing neural link... OK</text>
+    
+    <text x="70" y="340" fill="#fbbf24">>> GENERATING EMPATHETIC FEEDBACK PARAGRAPHS...</text>
+    
+    <text x="70" y="400">[BATCH_01] student_id_001.js -> compiled</text>
+    <text x="70" y="440">[BATCH_01] student_id_002.js -> compiled</text>
+    <text x="70" y="480">[BATCH_01] student_id_003.js -> compiled</text>
+    <text x="70" y="520" fill="#ffffff">> await groq.chat.completions.create()_</text>
+  </g>
+</svg>

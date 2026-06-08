@@ -1,0 +1,164 @@
+{
+    "Hero": {
+        "title": "Merancang Infrastruktur Otomatisasi yang Tangguh.",
+        "subtitle": "Saya membangun bot Python headless, mesin kualifikasi LLM, dan alur webhook CRM yang anti gagal.",
+        "cta_primary": "Lihat Arsitektur Saya",
+        "cta_secondary": "Audit Alur Kerja Anda"
+    },
+    "Navigation": {
+        "projects": "Sistem Produksi",
+        "services": "Layanan Infrastruktur",
+        "contact": "Terapkan Solusi"
+    },
+    "Philosophy": {
+        "badge": "Standar Rekayasa Perangkat Lunak",
+        "title": "Eksekusi Mengalahkan Teori",
+        "tech_heading": "Arsitektur Sistem",
+        "tech_copy": "Saya merancang integrasi API yang tidak gagal secara diam diam. Saya membangun pipeline Make.com dan n8n yang didukung oleh skema JSON yang ketat, penangkap kesalahan 422, dan sistem percobaan ulang yang tangguh.",
+        "edu_heading": "Orkestrasi LLM",
+        "edu_copy": "Saya merancang agen AI percakapan menggunakan OpenAI dengan sistem prompt yang ketat. Bukan sekadar penjawab otomatis biasa, melainkan kualifikasi prospek berbasis mesin status yang ketat."
+    },
+    "Timeline": {
+        "section_title": "Rekam Jejak Eksekusi",
+        "section_subtitle": "Sejarah terverifikasi dalam membangun infrastruktur headless dan logika data.",
+        "events": [
+            {
+                "id": "pgsd",
+                "year": "2021 - 2025",
+                "title": "Pemodelan Data & Proses",
+                "organization": "Universitas Muhammadiyah Prof. Dr. HAMKA",
+                "description": "Menganalisis struktur organisasi yang kompleks dan merancang kerangka kerja berbasis data untuk mengukur metrik kinerja terhadap standar institusional yang ketat. Mentransisikan metodologi analitis ke dalam sistem terprogram."
+            },
+            {
+                "id": "rpl",
+                "year": "2019 - 2021",
+                "title": "Rekayasa Perangkat Lunak Dasar",
+                "organization": "SMK Negeri 2 Jakarta (RPL)",
+                "description": "Membangun latar belakang yang kuat dalam logika pemrograman inti, penataan basis data, dan arsitektur desain UI/UX, meletakkan dasar untuk pengembangan infrastruktur API yang kompleks."
+            }
+        ]
+    },
+    "CaseStudies": {
+        "section_title": "Sistem Produksi",
+        "section_subtitle": "Sistem nyata yang memproses data mentah.",
+        "projects": [
+            {
+                "id": "jobstreet",
+                "title": "Bot Jobstreet Headless",
+                "role": "Lead Backend Engineer",
+                "problem": "Proses aplikasi manual sangat lambat dan tidak dapat diskalakan.",
+                "solution": "Membangun tumpukan otomatisasi Python dan Playwright headless menggunakan Scrapling dan Asyncio untuk penguraian DOM dan pengiriman formulir otomatis.",
+                "impact": "Menghilangkan tenaga kerja manual sepenuhnya, mengeksekusi ratusan aplikasi dengan cepat menggunakan logika deterministik.",
+                "tech": [
+                    "Python",
+                    "Playwright",
+                    "Asyncio",
+                    "Scrapling"
+                ],
+                "link": "https://github.com/Shiro291",
+                "view_case_study": "Lihat Arsitektur Sumber"
+            },
+            {
+                "id": "webhook",
+                "title": "Kualifikasi Prospek GHL/Make",
+                "role": "Spesialis Otomatisasi AI",
+                "problem": "Pipeline CRM menderita kegagalan webhook senyap dan prospek masuk yang tidak memenuhi syarat.",
+                "solution": "Merancang pendengar webhook FastAPI menggunakan validasi skema Pydantic dan output JSON OpenAI yang dipaksakan untuk menilai prospek masuk.",
+                "impact": "Mencapai nol payload yang terbuang melalui antrean dead letter kesalahan 422 dan peringatan Slack otomatis.",
+                "tech": [
+                    "FastAPI",
+                    "API OpenAI",
+                    "Pydantic",
+                    "Webhook"
+                ],
+                "link": "https://github.com/Shiro291",
+                "view_case_study": "Lihat Arsitektur Sumber"
+            },
+            {
+                "id": "edumetrics",
+                "title": "Otomatisasi AI EduMetrics",
+                "role": "Arsitek Sistem AI",
+                "problem": "Pipeline pemrosesan data memerlukan evaluasi manual yang berlebihan.",
+                "solution": "Membangun pipeline otomatisasi Node.js tanpa biaya menggunakan API Groq Llama 3 untuk mengurai dan mengevaluasi data CSV mentah secara instan.",
+                "impact": "Menghilangkan 100% waktu pemrosesan manual sekaligus meningkatkan kedalaman data dan keluaran kontekstual.",
+                "tech": [
+                    "Node.js",
+                    "Groq SDK",
+                    "Prompt Engineering",
+                    "Data Pipeline"
+                ],
+                "link": "https://github.com/Shiro291/edumetrics-ai",
+                "view_case_study": "Lihat Kode Sumber"
+            },
+            {
+                "id": "wiseboard",
+                "title": "Mesin Status Transisi",
+                "role": "Full-Stack Engineer",
+                "problem": "Pengguna tidak memiliki antarmuka untuk menentukan transisi status dinamis untuk alur kerja yang kompleks.",
+                "solution": "Merancang desainer interaktif Next.js 15 yang menampilkan manajemen status real time melalui Zustand dan pembuatan berbasis AI menggunakan Google Gemini 2.0 Flash.",
+                "impact": "Memberdayakan pengguna akhir untuk merancang dan menerapkan alur logika kompleks tanpa memerlukan pengkodean apa pun.",
+                "tech": [
+                    "Next.js 15",
+                    "Zustand",
+                    "Genkit AI",
+                    "Mesin Status"
+                ],
+                "link": "https://wiseboard.vercel.app/",
+                "view_case_study": "Lihat Implementasi"
+            }
+        ]
+    },
+    "Services": {
+        "section_title": "Kemampuan Strategis",
+        "section_subtitle": "Intervensi khusus untuk memaksimalkan efisiensi otomatisasi.",
+        "offerings": [
+            {
+                "id": "architecture",
+                "title": "Arsitektur Platform",
+                "description": "Merancang titik akhir API berskala tinggi dan pendengar webhook dari awal.",
+                "roi": "Mengurangi biaya server sebesar 30% dan menjamin penyerapan data yang kuat."
+            },
+            {
+                "id": "gamification",
+                "title": "Orkestrasi LLM",
+                "description": "Mengintegrasikan aliran AI deterministik ke dalam sistem CRM untuk kualifikasi dan perutean otomatis.",
+                "roi": "Meningkatkan kecepatan pemrosesan prospek dan menghilangkan triase manual."
+            },
+            {
+                "id": "conversion",
+                "title": "Audit Pipeline",
+                "description": "Menganalisis alur kerja Make.com dan n8n untuk menghilangkan titik gesekan dan penurunan kegagalan senyap.",
+                "roi": "Meningkatkan konversi dari prospek menjadi pesanan melalui penghapusan kesalahan."
+            }
+        ]
+    },
+    "LeadMagnet": {
+        "title": "Auditor Alur Kerja",
+        "subtitle": "Hitung biaya tersembunyi dari otomatisasi Anda yang rusak dan temukan ROI infrastruktur Anda dalam waktu kurang dari 3 menit.",
+        "form": {
+            "step_1_title": "Tumpukan Saat Ini",
+            "format_placeholder": "Pilih platform otomatisasi utama Anda...",
+            "format_options": {
+                "textbooks": "Make.com (Integromat)",
+                "pdfs": "n8n (Dihosting Sendiri/Cloud)",
+                "video": "Zapier",
+                "lms": "Skrip Python Khusus"
+            },
+            "step_2_title": "Volume Prospek",
+            "students_placeholder": "Total prospek masuk per bulan...",
+            "submit_button": "Hitung ROI Infrastruktur",
+            "submitting": "Menghitung...",
+            "report_title": "Audit Otomatisasi Khusus Anda",
+            "savings_label": "Proyeksi Penghematan Tahunan",
+            "engagement_label": "Estimasi Peningkatan Kualifikasi",
+            "time_label": "Jam Dihemat pada Triase",
+            "reset_button": "Mulai Audit Baru",
+            "error_message": "Terjadi kesalahan. Silakan coba lagi atau hubungi saya langsung."
+        },
+        "benefits": [
+            "Identifikasi kegagalan webhook senyap",
+            "Proyeksi peningkatan kualifikasi prospek",
+            "Petakan arsitektur CRM khusus"
+        ]
+    }
+}

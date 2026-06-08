@@ -1,0 +1,164 @@
+{
+    "Hero": {
+        "title": "Architecting High-Reliability Automation Pipelines.",
+        "subtitle": "I build headless Python bots, LLM qualification engines, and fault-tolerant CRM webhook flows.",
+        "cta_primary": "View My Architecture",
+        "cta_secondary": "Audit Your Workflows"
+    },
+    "Navigation": {
+        "projects": "Production Builds",
+        "services": "Systems & Infrastructure",
+        "contact": "Deploy a Solution"
+    },
+    "Philosophy": {
+        "badge": "The Engineering Standard",
+        "title": "Execution Beats Theory",
+        "tech_heading": "Systems Architecture",
+        "tech_copy": "I design API integrations that do not fail silently. I build Make.com and n8n pipelines backed by strict JSON schemas, 422 error catchers, and resilient retry states.",
+        "edu_heading": "LLM Orchestration",
+        "edu_copy": "I construct conversational AI agents using OpenAI with rigid system prompts. No glorified auto-responders, only strict state-machine lead qualification."
+    },
+    "Timeline": {
+        "section_title": "Execution History",
+        "section_subtitle": "A verified track record of building headless infrastructure and data logic.",
+        "events": [
+            {
+                "id": "pgsd",
+                "year": "2021 - 2025",
+                "title": "Data & Process Modeling",
+                "organization": "University of Muhammadiyah Prof. Dr. HAMKA",
+                "description": "Analyzed complex organizational structures and designed data-driven frameworks to measure performance metrics against strict institutional standards. Transitioned analytical methodologies into programmatic systems."
+            },
+            {
+                "id": "rpl",
+                "year": "2019 - 2021",
+                "title": "Software Engineering Foundation",
+                "organization": "State Vocational High School 2 Jakarta (RPL)",
+                "description": "Engineered a foundational background in core programming logic, database structuring, and UI/UX design architecture, laying the groundwork for complex API infrastructure development."
+            }
+        ]
+    },
+    "CaseStudies": {
+        "section_title": "Production Builds",
+        "section_subtitle": "Real systems processing raw data.",
+        "projects": [
+            {
+                "id": "jobstreet",
+                "title": "Headless Jobstreet Bot",
+                "role": "Lead Backend Engineer",
+                "problem": "Manual application processes were slow and unscalable.",
+                "solution": "Built a headless Python/Playwright automation stack utilizing Scrapling and Asyncio for DOM parsing and automated form submission.",
+                "impact": "Eliminated manual labor completely, executing hundreds of applications rapidly with deterministic logic.",
+                "tech": [
+                    "Python",
+                    "Playwright",
+                    "Asyncio",
+                    "Scrapling"
+                ],
+                "link": "https://github.com/Shiro291",
+                "view_case_study": "View Source Architecture"
+            },
+            {
+                "id": "webhook",
+                "title": "GHL/Make Lead Qualifier",
+                "role": "AI Automation Specialist",
+                "problem": "CRM pipelines suffered from silent webhook failures and unqalified inbound leads.",
+                "solution": "Architected a FastAPI webhook listener utilizing Pydantic schema validation and OpenAI JSON forced output to score inbound leads.",
+                "impact": "Achieved zero dropped payloads through 422 error dead-letter queues and automated Slack alerting.",
+                "tech": [
+                    "FastAPI",
+                    "OpenAI API",
+                    "Pydantic",
+                    "Webhooks"
+                ],
+                "link": "https://github.com/Shiro291",
+                "view_case_study": "View Source Architecture"
+            },
+            {
+                "id": "edumetrics",
+                "title": "EduMetrics AI Automation",
+                "role": "AI Systems Architect",
+                "problem": "Data processing pipelines required excessive manual evaluation.",
+                "solution": "Built a zero-cost Node.js automation pipeline utilizing the Groq Llama 3 API to instantly parse and evaluate raw CSV data.",
+                "impact": "Eliminated 100% of manual processing time while increasing the data depth and contextual output.",
+                "tech": [
+                    "Node.js",
+                    "Groq SDK",
+                    "Prompt Engineering",
+                    "Data Pipelines"
+                ],
+                "link": "https://github.com/Shiro291/edumetrics-ai",
+                "view_case_study": "View Source Code"
+            },
+            {
+                "id": "wiseboard",
+                "title": "State Machine Engine",
+                "role": "Full-Stack Engineer",
+                "problem": "Users lacked an interface to define dynamic state transitions for complex workflows.",
+                "solution": "Architected a Next.js 15 interactive designer featuring real-time state management via Zustand and AI-powered generation using Google Gemini 2.0 Flash.",
+                "impact": "Empowered end-users to design and deploy complex logic flows with zero coding required.",
+                "tech": [
+                    "Next.js 15",
+                    "Zustand",
+                    "Genkit AI",
+                    "State Machines"
+                ],
+                "link": "https://wiseboard.vercel.app/",
+                "view_case_study": "View Implementation"
+            }
+        ]
+    },
+    "Services": {
+        "section_title": "Strategic Capabilities",
+        "section_subtitle": "Specialized interventions to maximize automation efficiency.",
+        "offerings": [
+            {
+                "id": "architecture",
+                "title": "Platform Architecture",
+                "description": "Designing scalable, high-performance API endpoints and webhook listeners from the ground up.",
+                "roi": "Reduce server costs by 30% and guarantee robust data ingestion."
+            },
+            {
+                "id": "gamification",
+                "title": "LLM Orchestration",
+                "description": "Integrating deterministic AI flows into CRM systems for automated qualification and routing.",
+                "roi": "Boost lead processing speed and eliminate manual triage."
+            },
+            {
+                "id": "conversion",
+                "title": "Pipeline Audits",
+                "description": "Analyzing Make.com and n8n workflows to eliminate friction points and silent failure drops.",
+                "roi": "Increase lead-to-booking conversion through error elimination."
+            }
+        ]
+    },
+    "LeadMagnet": {
+        "title": "The Workflow Auditor",
+        "subtitle": "Calculate the hidden costs of your broken automations and discover your infrastructure ROI in under 3 minutes.",
+        "form": {
+            "step_1_title": "Current Stack",
+            "format_placeholder": "Select your primary automation platform...",
+            "format_options": {
+                "textbooks": "Make.com (Integromat)",
+                "pdfs": "n8n (Self-Hosted/Cloud)",
+                "video": "Zapier",
+                "lms": "Custom Python Scripts"
+            },
+            "step_2_title": "Lead Volume",
+            "students_placeholder": "Total inbound leads per month...",
+            "submit_button": "Calculate Infrastructure ROI",
+            "submitting": "Calculating...",
+            "report_title": "Your Custom Automation Audit",
+            "savings_label": "Projected Annual Savings",
+            "engagement_label": "Est. Qualification Uplift",
+            "time_label": "Hours Saved on Triage",
+            "reset_button": "Start New Audit",
+            "error_message": "An error occurred. Please try again or contact me directly."
+        },
+        "benefits": [
+            "Identify silent webhook failures",
+            "Project lead qualification uplift",
+            "Map custom CRM architecture"
+        ]
+    }
+}

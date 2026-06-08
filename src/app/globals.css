@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-border: var(--border);
+
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+
+  --shadow-brutal: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+  --shadow-brutal-lg: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+}
+
+@layer base {
+  :root {
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Editorial Brutalism - Light Mode (High Contrast, Stark) */
+    --background: #f8f9fa;
+    /* Off-white for less eye strain than pure white */
+    --foreground: #0f172a;
+    /* Slate 900 */
+
+    --primary: #2563eb;
+    /* Blue 600 - Trust, Tech, Education */
+    --primary-foreground: #ffffff;
+
+    --muted: #f1f5f9;
+    /* Slate 100 */
+    --muted-foreground: #475569;
+    /* Slate 600 */
+
+    --border: #cbd5e1;
+    /* Slate 300 */
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      /* Editorial Brutalism - Dark Mode (Sleek Tech) */
+      --background: #0f172a;
+      /* Slate 900 */
+      --foreground: #f8f9fa;
+      /* Off-white */
+
+      --primary: #3b82f6;
+      /* Blue 500 */
+      --primary-foreground: #ffffff;
+
+      --muted: #1e293b;
+      /* Slate 800 */
+      --muted-foreground: #94a3b8;
+      /* Slate 400 */
+
+      --border: #334155;
+      /* Slate 700 */
+    }
+  }
+}
+
+@layer base {
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.025em;
+  }
+}
+
+@layer utilities {
+  .interactive-card {
+    cursor: pointer;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 200ms;
+    border-width: 2px;
+    border-color: transparent;
+  }
+
+  .interactive-card:hover {
+    box-shadow: var(--shadow-brutal);
+    transform: translate(-0.25rem, -0.25rem);
+    border-color: var(--foreground);
+  }
+
+  .glass-panel {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    border-width: 1px;
+    border-color: var(--border);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .glass-panel {
+      background-color: rgba(15, 23, 42, 0.8);
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "tailwindcss";
+
+:root {
+  /* Editorial Brutalism meets Clean Tech (Light Mode Default) */
+  --background: #F9F9F6;
+  /* Off-white/cream */
+  --foreground: #09152C;
+  /* Deep Navy Blue */
+  --primary: #09152C;
+  /* Deep Navy Blue */
+  --accent: #00E676;
+  /* Electric Mint */
+  --muted: #475569;
+  /* Slate 600 */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
+  --color-muted: var(--muted);
+
+  --font-display: var(--font-syne);
+  --font-sans: var(--font-outfit);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #09152C;
+    /* Deep Navy Blue */
+    --foreground: #F9F9F6;
+    /* Off-white/cream */
+    --primary: #F9F9F6;
+    --accent: #00E676;
+    /* Electric Mint */
+    --muted: #94A3B8;
+    /* Slate 400 */
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
