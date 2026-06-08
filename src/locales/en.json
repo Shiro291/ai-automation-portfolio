@@ -55,7 +55,7 @@
                     "Asyncio",
                     "Scrapling"
                 ],
-                "link": "https://github.com/Shiro291",
+                "link": "https://github.com/Shiro291/jobstreet-headless-bot",
                 "view_case_study": "View Source Architecture"
             },
             {
@@ -71,7 +71,7 @@
                     "Pydantic",
                     "Webhooks"
                 ],
-                "link": "https://github.com/Shiro291",
+                "link": "https://github.com/Shiro291/ghl-make-qualifier",
                 "view_case_study": "View Source Architecture"
             },
             {
@@ -87,7 +87,7 @@
                     "Prompt Engineering",
                     "Data Pipelines"
                 ],
-                "link": "https://github.com/Shiro291/edumetrics-ai",
+                "link": "https://github.com/Shiro291/edumetrics-ai-pipeline",
                 "view_case_study": "View Source Code"
             },
             {
@@ -103,7 +103,7 @@
                     "Genkit AI",
                     "State Machines"
                 ],
-                "link": "https://wiseboard.vercel.app/",
+                "link": "https://github.com/Shiro291/n8n-state-machine",
                 "view_case_study": "View Implementation"
             }
         ]

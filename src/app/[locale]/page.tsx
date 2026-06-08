@@ -195,7 +195,7 @@ export default function Home() {
               {/* Screenshot injected for the brutalist style */}
               <a href={project.link} target="_blank" rel="noopener noreferrer" className="block h-64 md:h-80 bg-muted border-b-2 border-transparent group-hover:border-foreground transition-colors w-full relative overflow-hidden flex items-center justify-center">
                 <Image
-                  src={`/${project.id === 'meca' ? 'meca.png' : project.id === 'tatasurya' ? 'tatasurya.png' : project.id === 'edumetrics' ? 'edumetrics.svg' : 'wiseboard.png'}`}
+                  src={`/${project.id === 'meca' ? 'meca.png' : project.id === 'tatasurya' ? 'tatasurya.png' : project.id === 'edumetrics' ? 'edumetrics.png' : 'wiseboard.png'}`}
                   alt={`${project.title} Interface Thumbnail`}
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
