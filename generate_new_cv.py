@@ -21,7 +21,7 @@ def build_cv(filename="Fathan_CV_Updated_Final.pdf"):
     # Define exact styles to match the original "clean/minimal" format
     name_style = ParagraphStyle(
         'Name', parent=styles['Normal'],
-        fontName='Times-Bold', fontSize=18, spaceAfter=2, textColor=black
+        fontName='Times-Bold', fontSize=18, spaceAfter=8, textColor=black
     )
     contact_style = ParagraphStyle(
         'Contact', parent=styles['Normal'],
@@ -62,7 +62,7 @@ def build_cv(filename="Fathan_CV_Updated_Final.pdf"):
     # LinkedIn | GitHub | Portfolio
     Story.append(Paragraph("Fathan Faqih Ali", name_style))
     Story.append(Paragraph("fathanfaqih86@gmail.com", contact_style))
-    Story.append(Paragraph('<a href="https://github.com/Shiro291" color="blue">GitHub</a> | <a href="https://github.com/Shiro291/ai-automation-portfolio" color="blue">Portfolio</a>', link_style))
+    Story.append(Paragraph('<a href="https://github.com/Shiro291" color="blue">GitHub</a> | <a href="https://auto-ai-portfolio.vercel.app" color="blue">Portfolio</a>', link_style))
     
     # --- SUMMARY ---
     Story.append(Paragraph("SUMMARY", section_heading))
