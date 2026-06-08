@@ -1,7 +1,7 @@
 {
     "Hero": {
-        "title": "Merancang Infrastruktur Otomatisasi yang Tangguh.",
-        "subtitle": "Saya membangun bot Python headless, mesin kualifikasi LLM, dan alur webhook CRM yang anti gagal.",
+        "title": "Menjembatani Jarak Antara Kode dan Skalabilitas.",
+        "subtitle": "Saya merancang sistem backend yang sangat tangguh dan pipeline otomatisasi AI.",
         "cta_primary": "Lihat Arsitektur Saya",
         "cta_secondary": "Audit Alur Kerja Anda"
     },
@@ -12,11 +12,11 @@
     },
     "Philosophy": {
         "badge": "Standar Rekayasa Perangkat Lunak",
-        "title": "Eksekusi Mengalahkan Teori",
+        "title": "Arsitektur AI & Sistem",
         "tech_heading": "Arsitektur Sistem",
-        "tech_copy": "Saya merancang integrasi API yang tidak gagal secara diam diam. Saya membangun pipeline Make.com dan n8n yang didukung oleh skema JSON yang ketat, penangkap kesalahan 422, dan sistem percobaan ulang yang tangguh.",
+        "tech_copy": "Saya membangun arsitektur yang kuat dan skalabel dengan nol utang teknis menggunakan Python, FastAPI, dan alat orkestrasi yang kuat.",
         "edu_heading": "Orkestrasi LLM",
-        "edu_copy": "Saya merancang agen AI percakapan menggunakan OpenAI dengan sistem prompt yang ketat. Bukan sekadar penjawab otomatis biasa, melainkan kualifikasi prospek berbasis mesin status yang ketat."
+        "edu_copy": "Saya menerapkan prinsip-prinsip rekayasa sistem untuk membangun solusi otomatis dan integrasi AI yang sangat tangguh."
     },
     "Timeline": {
         "section_title": "Rekam Jejak Eksekusi",
@@ -25,9 +25,9 @@
             {
                 "id": "pgsd",
                 "year": "2021 - 2025",
-                "title": "Pemodelan Data & Proses",
+                "title": "Arsitek Sistem AI",
                 "organization": "Universitas Muhammadiyah Prof. Dr. HAMKA",
-                "description": "Menganalisis struktur organisasi yang kompleks dan merancang kerangka kerja berbasis data untuk mengukur metrik kinerja terhadap standar institusional yang ketat. Mentransisikan metodologi analitis ke dalam sistem terprogram."
+                "description": "Mengkhususkan diri dalam konstruksi pipeline yang tangguh, layanan mikro wrapper LLM, dan otomatisasi tingkat perusahaan."
             },
             {
                 "id": "rpl",
@@ -39,72 +39,72 @@
         ]
     },
     "CaseStudies": {
-        "section_title": "Sistem Produksi",
-        "section_subtitle": "Sistem nyata yang memproses data mentah.",
+        "section_title": "Rekayasa Sistem Arsitektur",
+        "section_subtitle": "Otomatisasi yang kuat, pipeline AI, dan layanan mikro yang dapat diskalakan.",
         "projects": [
             {
-                "id": "jobstreet",
-                "title": "Bot Jobstreet Headless",
-                "role": "Lead Backend Engineer",
-                "problem": "Proses aplikasi manual sangat lambat dan tidak dapat diskalakan.",
-                "solution": "Membangun tumpukan otomatisasi Python dan Playwright headless menggunakan Scrapling dan Asyncio untuk penguraian DOM dan pengiriman formulir otomatis.",
-                "impact": "Menghilangkan tenaga kerja manual sepenuhnya, mengeksekusi ratusan aplikasi dengan cepat menggunakan logika deterministik.",
+                "id": "jobstreet-headless",
+                "title": "Jobstreet Headless Bot",
+                "role": "AI & Automation Engineer",
+                "problem": "Aplikasi pekerjaan manual memakan banyak waktu dan tidak efisien.",
+                "solution": "Membangun agen AI agnostik-penyedia menggunakan litellm untuk mengotomatiskan aplikasi dengan manajemen kredensial yang aman.",
+                "impact": "Mengotomatiskan seluruh pipeline pencarian kerja dengan kemampuan AI yang kuat.",
                 "tech": [
                     "Python",
-                    "Playwright",
-                    "Asyncio",
-                    "Scrapling"
+                    "litellm",
+                    "Automation",
+                    "Playwright"
                 ],
-                "link": "https://github.com/Shiro291/jobstreet-headless-bot",
-                "view_case_study": "Lihat Arsitektur Sumber"
+                "link": "https://github.com/Shiro291/Jobstreet-bot",
+                "view_case_study": "Lihat Kode Sumber"
             },
             {
-                "id": "webhook",
-                "title": "Kualifikasi Prospek GHL/Make",
-                "role": "Spesialis Otomatisasi AI",
-                "problem": "Pipeline CRM menderita kegagalan webhook senyap dan prospek masuk yang tidak memenuhi syarat.",
-                "solution": "Merancang pendengar webhook FastAPI menggunakan validasi skema Pydantic dan output JSON OpenAI yang dipaksakan untuk menilai prospek masuk.",
-                "impact": "Mencapai nol payload yang terbuang melalui antrean dead letter kesalahan 422 dan peringatan Slack otomatis.",
+                "id": "ghl-make-qualifier",
+                "title": "AI Lead Qualifier Wrapper",
+                "role": "Backend Systems Architect",
+                "problem": "Integrasi LLM mentah dalam kualifikasi prospek CRM menyebabkan biaya yang tidak terkelola dan kehilangan data.",
+                "solution": "Merancang layanan mikro FastAPI yang sangat tangguh dengan Mesin Kuota SQLite dan Dead Letter Queue (DLQ).",
+                "impact": "Mencegah kebangkrutan API dan memastikan tidak ada data yang hilang saat panggilan LLM gagal.",
                 "tech": [
                     "FastAPI",
-                    "API OpenAI",
-                    "Pydantic",
-                    "Webhook"
+                    "SQLite",
+                    "litellm",
+                    "Microservices"
                 ],
                 "link": "https://github.com/Shiro291/ghl-make-qualifier",
-                "view_case_study": "Lihat Arsitektur Sumber"
+                "view_case_study": "Lihat Kode Sumber"
             },
             {
                 "id": "edumetrics",
-                "title": "Otomatisasi AI EduMetrics",
-                "role": "Arsitek Sistem AI",
-                "problem": "Pipeline pemrosesan data memerlukan evaluasi manual yang berlebihan.",
-                "solution": "Membangun pipeline otomatisasi Node.js tanpa biaya menggunakan API Groq Llama 3 untuk mengurai dan mengevaluasi data CSV mentah secara instan.",
-                "impact": "Menghilangkan 100% waktu pemrosesan manual sekaligus meningkatkan kedalaman data dan keluaran kontekstual.",
+                "title": "EduMetrics AI Pipeline",
+                "role": "Data Pipeline Engineer",
+                "problem": "Skrip async dasar gagal karena batasan rate limit saat menghasilkan umpan balik.",
+                "solution": "Membangun kembali pipeline pemrosesan data yang tahan lama didukung oleh Prefect v3 dengan backoff eksponensial asli dan percobaam ulang.",
+                "impact": "Memproses ribuan data siswa secara bersamaan tanpa kegagalan atau kehilangan data.",
                 "tech": [
-                    "Node.js",
-                    "Groq SDK",
-                    "Prompt Engineering",
-                    "Data Pipeline"
+                    "Python",
+                    "Prefect v3",
+                    "litellm",
+                    "Data Pipelines"
                 ],
                 "link": "https://github.com/Shiro291/edumetrics-ai-pipeline",
                 "view_case_study": "Lihat Kode Sumber"
             },
             {
-                "id": "wiseboard",
-                "title": "Mesin Status Transisi",
-                "role": "Full-Stack Engineer",
-                "problem": "Pengguna tidak memiliki antarmuka untuk menentukan transisi status dinamis untuk alur kerja yang kompleks.",
-                "solution": "Merancang desainer interaktif Next.js 15 yang menampilkan manajemen status real time melalui Zustand dan pembuatan berbasis AI menggunakan Google Gemini 2.0 Flash.",
-                "impact": "Memberdayakan pengguna akhir untuk merancang dan menerapkan alur logika kompleks tanpa memerlukan pengkodean apa pun.",
+                "id": "n8n-state-machine",
+                "title": "Resilient n8n State Machine",
+                "role": "Systems Integrator",
+                "problem": "Skema otomatisasi alur kerja satu file mudah rusak dan sulit di-debug.",
+                "solution": "Menerapkan arsitektur 3 tingkat tingkat perusahaan dengan penangkapan kesalahan global, pendelegasian sub-alur kerja, dan logika coba ulang asli.",
+                "impact": "Mengubah otomatisasi standar menjadi mesin status toleran kesalahan tingkat produksi.",
                 "tech": [
-                    "Next.js 15",
-                    "Zustand",
-                    "Genkit AI",
-                    "Mesin Status"
+                    "n8n",
+                    "Workflow Automation",
+                    "State Machines",
+                    "JSON"
                 ],
                 "link": "https://github.com/Shiro291/n8n-state-machine",
-                "view_case_study": "Lihat Implementasi"
+                "view_case_study": "Lihat Kode Sumber"
             }
         ]
     },

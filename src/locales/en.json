@@ -1,7 +1,7 @@
 {
     "Hero": {
-        "title": "Architecting High-Reliability Automation Pipelines.",
-        "subtitle": "I build headless Python bots, LLM qualification engines, and fault-tolerant CRM webhook flows.",
+        "title": "Bridging the Gap Between Code and Scalability.",
+        "subtitle": "I architect highly resilient, robust backend systems and AI automation pipelines.",
         "cta_primary": "View My Architecture",
         "cta_secondary": "Audit Your Workflows"
     },
@@ -12,11 +12,11 @@
     },
     "Philosophy": {
         "badge": "The Engineering Standard",
-        "title": "Execution Beats Theory",
+        "title": "AI & Systems Architecture",
         "tech_heading": "Systems Architecture",
-        "tech_copy": "I design API integrations that do not fail silently. I build Make.com and n8n pipelines backed by strict JSON schemas, 422 error catchers, and resilient retry states.",
+        "tech_copy": "I build robust, scalable architectures with zero technical debt using Python, FastAPI, and robust orchestration tools.",
         "edu_heading": "LLM Orchestration",
-        "edu_copy": "I construct conversational AI agents using OpenAI with rigid system prompts. No glorified auto-responders, only strict state-machine lead qualification."
+        "edu_copy": "I apply systems engineering principles to build highly resilient automated solutions and AI integrations."
     },
     "Timeline": {
         "section_title": "Execution History",
@@ -25,9 +25,9 @@
             {
                 "id": "pgsd",
                 "year": "2021 - 2025",
-                "title": "Data & Process Modeling",
+                "title": "AI Systems Architect",
                 "organization": "University of Muhammadiyah Prof. Dr. HAMKA",
-                "description": "Analyzed complex organizational structures and designed data-driven frameworks to measure performance metrics against strict institutional standards. Transitioned analytical methodologies into programmatic systems."
+                "description": "Specializing in resilient pipeline construction, LLM-wrapper microservices, and enterprise automation."
             },
             {
                 "id": "rpl",
@@ -39,72 +39,72 @@
         ]
     },
     "CaseStudies": {
-        "section_title": "Production Builds",
-        "section_subtitle": "Real systems processing raw data.",
+        "section_title": "Architectural Systems Engineering",
+        "section_subtitle": "Robust automation, AI pipelines, and scalable microservices.",
         "projects": [
             {
-                "id": "jobstreet",
-                "title": "Headless Jobstreet Bot",
-                "role": "Lead Backend Engineer",
-                "problem": "Manual application processes were slow and unscalable.",
-                "solution": "Built a headless Python/Playwright automation stack utilizing Scrapling and Asyncio for DOM parsing and automated form submission.",
-                "impact": "Eliminated manual labor completely, executing hundreds of applications rapidly with deterministic logic.",
+                "id": "jobstreet-headless",
+                "title": "Jobstreet Headless Bot",
+                "role": "AI & Automation Engineer",
+                "problem": "Manual job applications are time-consuming and inefficient.",
+                "solution": "Built a robust, provider-agnostic AI agent using litellm to automate applications with secure credential management.",
+                "impact": "Completely automated the job search pipeline with robust AI capability.",
                 "tech": [
                     "Python",
-                    "Playwright",
-                    "Asyncio",
-                    "Scrapling"
+                    "litellm",
+                    "Automation",
+                    "Playwright"
                 ],
-                "link": "https://github.com/Shiro291/jobstreet-headless-bot",
-                "view_case_study": "View Source Architecture"
+                "link": "https://github.com/Shiro291/Jobstreet-bot",
+                "view_case_study": "View Source Code"
             },
             {
-                "id": "webhook",
-                "title": "GHL/Make Lead Qualifier",
-                "role": "AI Automation Specialist",
-                "problem": "CRM pipelines suffered from silent webhook failures and unqalified inbound leads.",
-                "solution": "Architected a FastAPI webhook listener utilizing Pydantic schema validation and OpenAI JSON forced output to score inbound leads.",
-                "impact": "Achieved zero dropped payloads through 422 error dead-letter queues and automated Slack alerting.",
+                "id": "ghl-make-qualifier",
+                "title": "AI Lead Qualifier Wrapper",
+                "role": "Backend Systems Architect",
+                "problem": "Raw LLM integration in CRM lead qualification leads to unmanaged costs and data loss.",
+                "solution": "Architected a highly resilient FastAPI microservice featuring an SQLite Quota Engine and a Dead Letter Queue (DLQ).",
+                "impact": "Prevented API bankruptcy and ensured zero data loss on failed LLM calls.",
                 "tech": [
                     "FastAPI",
-                    "OpenAI API",
-                    "Pydantic",
-                    "Webhooks"
+                    "SQLite",
+                    "litellm",
+                    "Microservices"
                 ],
                 "link": "https://github.com/Shiro291/ghl-make-qualifier",
-                "view_case_study": "View Source Architecture"
+                "view_case_study": "View Source Code"
             },
             {
                 "id": "edumetrics",
-                "title": "EduMetrics AI Automation",
-                "role": "AI Systems Architect",
-                "problem": "Data processing pipelines required excessive manual evaluation.",
-                "solution": "Built a zero-cost Node.js automation pipeline utilizing the Groq Llama 3 API to instantly parse and evaluate raw CSV data.",
-                "impact": "Eliminated 100% of manual processing time while increasing the data depth and contextual output.",
+                "title": "EduMetrics AI Pipeline",
+                "role": "Data Pipeline Engineer",
+                "problem": "Basic async scripts failed under rate limits when generating educational feedback.",
+                "solution": "Rebuilt into a durable data processing pipeline powered by Prefect v3 with native exponential backoff and retries.",
+                "impact": "Processed thousands of student records concurrently with zero failures or data dropouts.",
                 "tech": [
-                    "Node.js",
-                    "Groq SDK",
-                    "Prompt Engineering",
+                    "Python",
+                    "Prefect v3",
+                    "litellm",
                     "Data Pipelines"
                 ],
                 "link": "https://github.com/Shiro291/edumetrics-ai-pipeline",
                 "view_case_study": "View Source Code"
             },
             {
-                "id": "wiseboard",
-                "title": "State Machine Engine",
-                "role": "Full-Stack Engineer",
-                "problem": "Users lacked an interface to define dynamic state transitions for complex workflows.",
-                "solution": "Architected a Next.js 15 interactive designer featuring real-time state management via Zustand and AI-powered generation using Google Gemini 2.0 Flash.",
-                "impact": "Empowered end-users to design and deploy complex logic flows with zero coding required.",
+                "id": "n8n-state-machine",
+                "title": "Resilient n8n State Machine",
+                "role": "Systems Integrator",
+                "problem": "Single-file workflow automation schemas are brittle and difficult to debug.",
+                "solution": "Deployed an enterprise-grade 3-tier architecture with global error catching, sub-workflow delegation, and native retry logic.",
+                "impact": "Transformed standard automation into a production-grade fault-tolerant state machine.",
                 "tech": [
-                    "Next.js 15",
-                    "Zustand",
-                    "Genkit AI",
-                    "State Machines"
+                    "n8n",
+                    "Workflow Automation",
+                    "State Machines",
+                    "JSON"
                 ],
                 "link": "https://github.com/Shiro291/n8n-state-machine",
-                "view_case_study": "View Implementation"
+                "view_case_study": "View Source Code"
             }
         ]
     },

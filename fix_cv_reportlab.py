@@ -64,7 +64,7 @@ def create_overlay():
     c.drawString(116.0, 739.0, " | Portfolio")
     
     # We can add a clickable link annotation in reportlab:
-    c.linkURL("https://github.com/Shiro291/ai-automation-portfolio", (116.0, 739.0 - 2, 160.0, 739.0 + 10))
+    c.linkURL("https://auto-ai-portfolio.vercel.app", (116.0, 739.0 - 2, 160.0, 739.0 + 10))
     
     c.save()
     packet.seek(0)
